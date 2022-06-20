@@ -1,0 +1,1 @@
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame.UWP\LaddersGame.UWP.csproj;x86

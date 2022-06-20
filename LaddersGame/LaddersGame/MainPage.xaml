@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaddersGame.MainPage">
+
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+        <Grid x:Name="GrdBoard" BackgroundColor="Green"
+           HeightRequest="600" WidthRequest="600"
+           HorizontalOptions="Center" VerticalOptions="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+
+
+
+            </Grid.ColumnDefinitions>
+
+            <Image Source="snakesandladdersboard.png" 
+                   Grid.Row="1" Grid.Column="1"
+                   Grid.RowSpan="10" Grid.ColumnSpan="10"/>
+
+            
+            <!--add players-->
+
+            <BoxView x:Name="bvP1" BackgroundColor="red" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="1" />
+            <BoxView  BackgroundColor="red" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="1" />
+            <Label Text="P1" FontSize="Medium"
+                   HorizontalOptions="Center" VerticalOptions="Center"
+                   Grid.Row="11" Grid.Column="1" />
+
+            <BoxView x:Name="bvP2" BackgroundColor="Blue" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="2" />
+            <BoxView  BackgroundColor="blue" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="2" />
+            <Label Text="P2" FontSize="Medium"
+                   HorizontalOptions="Center" VerticalOptions="Center"
+                   Grid.Row="11" Grid.Column="2" />
+
+            <BoxView x:Name="bvP3" BackgroundColor="Purple" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="3" />
+            <BoxView  BackgroundColor="Purple" CornerRadius="22"
+                  HorizontalOptions="Center"  VerticalOptions="Center"
+                  Grid.Row="11" Grid.Column="3" />
+            <Label Text="P3" FontSize="Medium"
+                   HorizontalOptions="Center" VerticalOptions="Center"
+                   Grid.Row="11" Grid.Column="3" />
+
+            <Label x:Name="lblUpdates" Text="Press Start" FontSize="Small"
+                   Grid.Row="11" Grid.Column="5" Grid.ColumnSpan="2"
+                   HorizontalOptions="Center" VerticalOptions="Center" />
+
+            <Button x:Name="btnDiceRoll" Text="Roll" BackgroundColor="White" WidthRequest="45"
+                    Grid.Row="11" Grid.Column="7" Grid.ColumnSpan="2"
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    Clicked="btnDiceRoll_Clicked" />
+           
+            <Label x:Name="lblDiceRoll" Text="0" FontSize="Medium"
+                   Grid.Row="11" Grid.Column="9"
+                   HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        </Grid>
+        
+        
+        
+        
+        
+        
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,14 @@
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\bin\Debug\netstandard2.0\LaddersGame.deps.json
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\bin\Debug\netstandard2.0\LaddersGame.dll
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\bin\Debug\netstandard2.0\ref\LaddersGame.dll
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\bin\Debug\netstandard2.0\LaddersGame.pdb
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.AssemblyInfo.cs
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.dll
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\ref\LaddersGame.dll
+C:\Users\Dell\source\repos\LaddersGame\LaddersGame\LaddersGame\obj\Debug\netstandard2.0\LaddersGame.pdb
